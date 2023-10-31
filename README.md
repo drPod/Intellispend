@@ -99,14 +99,6 @@ The **Intellispend Server** is the backend component responsible for handling da
 
 The server will be accessible via a specified port (default is 3000).
 
-4. Configure your Plaid API credentials (see [Configuration](#configuration) for details).
-
-5. Run the application:
-
-   ```bash
-   npm run dev
-   ```
-
 **Intellispend** should now be running locally and accessible in your web browser.
 
 ## Usage
@@ -195,3 +187,4 @@ Please ensure your code follows our coding standards and include tests for new f
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 Thank you for using **Intellispend**. We hope this app helps you gain better control of your finances. If you have any questions or encounter issues, please feel free to open an issue on this repository. Happy budgeting!
+
