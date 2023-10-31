@@ -1,0 +1,60 @@
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+        position: relative;
+        top: 20px;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0px;
+    }
+}
+
+@keyframes MoveRight {
+    0% {
+        position: relative;
+        left: 0;
+    }
+    50% {
+        position: relative;
+        left: 5px;
+    }
+    75% {
+        position: relative;
+        left: 0;
+    }
+    100% {
+        position: relative;
+        left: 0;
+    }
+}
+
+@keyframes SlideRight {
+    0% {
+        position: relative;
+        left: 0;
+    }
+    100% {
+        position: relative;
+        left: 100%;
+    }
+}
+
+.fadeIn {
+    animation-name: FadeIn;
+    animation-duration: 2s
+}
+
+.bounceRight {
+    animation-name: MoveRight;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.slideRight {
+    animation-name: SlideRight;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
